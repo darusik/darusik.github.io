@@ -1,0 +1,274 @@
+@use "variables" as v;
+
+/* Global readability and calmer accent palette */
+body {
+  font-size: 1.08rem;
+  line-height: 1.72;
+}
+
+p {
+  margin-bottom: 1.2rem;
+}
+
+a,
+table.table a {
+  color: #5b5f97;
+}
+
+/* Homepage/about page refinements */
+.post {
+  max-width: 860px;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.post .post-header {
+  margin-bottom: 2rem;
+}
+
+.post .post-header .post-title {
+  font-size: clamp(2.3rem, 4.5vw, 3.1rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.45rem;
+}
+
+.post .post-header .desc {
+  color: var(--global-text-color-light);
+  font-size: 1.05rem;
+  font-weight: 400;
+  margin-bottom: 1.25rem;
+}
+
+.post article > .clearfix,
+.post article > h2,
+.post article > .publications,
+.post article > .social {
+  max-width: 760px;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.post article > h2 {
+  margin-top: 2.4rem;
+  margin-bottom: 1rem;
+  font-size: 1.45rem;
+}
+
+.post article > .clearfix p {
+  max-width: 70ch;
+  color: var(--global-text-color-light);
+}
+
+/* Profile image + right metadata */
+.profile {
+  width: min(27%, 220px);
+  margin-top: 0.45rem;
+}
+
+.profile .more-info {
+  margin-top: 0.85rem;
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+  line-height: 1.65;
+}
+
+.profile .more-info p {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.profile img.z-depth-1,
+.profile img.rounded-circle {
+  box-shadow: none !important;
+}
+
+.profile img.rounded-circle {
+  width: clamp(120px, 28vw, 180px) !important;
+  height: clamp(120px, 28vw, 180px) !important;
+  max-width: none !important;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+/* Highlights list styling */
+.highlights-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0.3rem;
+}
+
+.highlights-list li {
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.35rem;
+  display: flex;
+  gap: 0.8rem;
+  align-items: baseline;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.highlights-list li:last-child {
+  border-bottom: 0;
+}
+
+.highlights-list .item-year {
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  white-space: nowrap;
+  order: -1;
+  min-width: 3rem;
+}
+
+/* Selected publications readability */
+.publications {
+  margin-top: 0.9rem;
+}
+
+.publications ol.bibliography {
+  margin: 0;
+  padding-left: 0;
+}
+
+.publications ol.bibliography li {
+  margin-top: 0;
+  margin-bottom: 0.55rem;
+  padding-top: 0;
+  padding-bottom: 0.55rem;
+  border-bottom: 0;
+  list-style: none;
+}
+
+.publications ol.bibliography li:last-child {
+  border-bottom: 0;
+}
+
+.publications ol.bibliography li .title {
+  font-size: 1.04rem;
+  font-weight: 650;
+  line-height: 1.25;
+  margin-bottom: 0.1rem;
+}
+
+.publications ol.bibliography li .author,
+.publications ol.bibliography li .periodical {
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+  margin: 0.05rem 0;
+}
+
+.publications ol.bibliography li .periodical:first-of-type {
+  display: block;
+}
+
+.publications ol.bibliography li .links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.32rem;
+  margin-top: 0.18rem;
+}
+
+.publications ol.bibliography li .links a.btn {
+  margin: 0;
+  min-width: 3.4rem;
+  text-align: center;
+  padding-top: 0.14rem;
+  padding-bottom: 0.14rem;
+  padding-left: 0.55rem;
+  padding-right: 0.55rem;
+}
+
+/* Remove bootstrap gutter/padding around each bib row */
+.publications .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.publications .row > [class*="col-"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Remove reserved bootstrap column width in bibliography entries */
+.publications .row > .col-sm-10,
+.publications .row > .col-sm-8,
+.publications .row > .col {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+/* Make year headers compact and left-aligned */
+.publications h2.bibliography {
+  display: none;
+}
+
+/* Header social icons next to search/theme controls */
+.nav-social-icons .social {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-social-icons .social .contact-icons {
+  font-size: 1.05rem;
+  display: inline-flex;
+  gap: 0.35rem;
+  align-items: center;
+}
+
+.nav-social-icons .social .contact-icons a {
+  margin: 0;
+}
+
+.nav-social-icons .social .contact-icons i {
+  font-size: 0.92rem;
+}
+
+.nav-social-icons .social .contact-icons a img {
+  width: 0.92rem;
+  height: 0.92rem;
+}
+
+.nav-social-icons .social .contact-icons a svg {
+  width: 0.95rem;
+  height: 0.95rem;
+}
+
+.nav-social-icons .social .contact-note {
+  display: none;
+}
+
+/* Footer and social icons */
+.social-header {
+  margin-top: 0.4rem;
+  margin-bottom: 0.25rem;
+}
+
+.social-header .contact-icons {
+  font-size: 2rem;
+}
+
+.social-header .contact-icons a {
+  margin: 0 0.12rem;
+}
+
+.social-header .contact-icons a img {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.social-header .contact-icons a svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.social-header .contact-icons a svg image {
+  width: 2rem;
+  height: 2rem;
+}
+
+footer.fixed-bottom .container {
+  opacity: 0.9;
+  font-size: 0.72rem;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
