@@ -17,7 +17,51 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/highlight-template-1/";
+            window.location.href = "/blog/2025/european-cybersecurity-ai-hackathon/";
+          
+        },
+      },{id: "post-invited-talk-at-essai-2025",
+        
+          title: "Invited talk at ESSAI 2025",
+        
+        description: "I presented our SaTML paper at the European Symposium on Security and AI in Rennes.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/essai-talk/";
+          
+        },
+      },{id: "post-winner-of-ocg-förderpreis-2025",
+        
+          title: "Winner of OCG Förderpreis 2025",
+        
+        description: "I received the OCG Förderpreis 2025 for my master’s thesis on model stealing attacks.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ocg-foerderpreis/";
+          
+        },
+      },{id: "post-presenting-our-paper-on-model-stealing-at-ieee-satml-2025",
+        
+          title: "Presenting our paper on model stealing at IEEE SaTML 2025",
+        
+        description: "Our SaTML 2025 paper on model stealing attacks is now published.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/new-paper-attackers-can-do-better/";
+          
+        },
+      },{id: "post-runner-up-at-tu-wien-informatics-awards",
+        
+          title: "Runner-up at TU Wien Informatics Awards",
+        
+        description: "I received the runner-up prize for my master’s thesis at the TU Wien Informatics Awards.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tu-wien-informatics-awards-runner-up/";
           
         },
       },{
