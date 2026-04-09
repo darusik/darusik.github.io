@@ -72,11 +72,19 @@ table.table a {
   font-size: 0.9rem;
   color: var(--global-text-color-light);
   line-height: 1.65;
+  text-align: center;
 }
 
 .profile .more-info p {
   display: block;
   margin-bottom: 0.25rem;
+}
+
+.profile .more-info .profile-credit {
+  margin-top: 0.35rem;
+  font-size: 0.72rem;
+  color: var(--global-text-color-light);
+  opacity: 0.85;
 }
 
 .profile img.z-depth-1,

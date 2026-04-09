@@ -39,7 +39,7 @@ I'm also conducting research on model stealing, which was the main topic of my m
   {% for post in highlights_posts limit: 6 %}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <span class="item-year">{{ post.date | date: "%Y" }}</span>
+      <span class="item-year">{{ post.date | date: "%b %Y" }}</span>
     </li>
   {% endfor %}
 </ul>
