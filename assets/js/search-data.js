@@ -20,11 +20,11 @@ ninja.data = [{
             window.location.href = "/blog/2026/cispa-hackathon-championship-finals/";
           
         },
-      },{id: "post-research-stay-with-the-dormant-neurons-group-at-cispa",
+      },{id: "post-visiting-the-dormant-neurons-group-at-cispa",
         
-          title: "Research stay with the Dormant Neurons group at CISPA",
+          title: "Visiting the Dormant Neurons group at CISPA",
         
-        description: "I spent a short research stay with the Dormant Neurons group at CISPA.",
+        description: "I visited the Dormant Neurons group at CISPA for a short research exchange.",
         section: "Posts",
         handler: () => {
           
