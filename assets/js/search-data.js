@@ -9,9 +9,42 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "post-2nd-place-at-the-european-cybersecurity-amp-ai-hackathon-championship",
+  },{id: "post-4th-place-at-the-european-cybersecurity-amp-ai-hackathon-championship-finals",
         
-          title: "2nd place at the European Cybersecurity &amp; AI Hackathon Championship",
+          title: "4th place at the European Cybersecurity &amp; AI Hackathon Championship finals",
+        
+        description: "Our team placed 4th in the grand final of the CISPA European Cybersecurity &amp; AI Hackathon Championship.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/cispa-hackathon-championship-finals/";
+          
+        },
+      },{id: "post-research-stay-with-the-dormant-neurons-group-at-cispa",
+        
+          title: "Research stay with the Dormant Neurons group at CISPA",
+        
+        description: "I spent a short research stay with the Dormant Neurons group at CISPA.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/cispa-research-stay/";
+          
+        },
+      },{id: "post-from-dagstuhl-to-a-preprint-on-agentic-ai-in-cybersecurity",
+        
+          title: "From Dagstuhl to a preprint on agentic AI in cybersecurity",
+        
+        description: "A new preprint on agentic AI in cybersecurity, following my first Dagstuhl seminar.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/dagstuhl-agentic-ai-preprint/";
+          
+        },
+      },{id: "post-2nd-place-at-the-vienna-round-of-the-european-cybersecurity-amp-ai-hackathon",
+        
+          title: "2nd place at the Vienna round of the European Cybersecurity &amp; AI Hackathon...",
         
         description: "We finished 2nd in Vienna and advanced to the CISPA championship grand final.",
         section: "Posts",
