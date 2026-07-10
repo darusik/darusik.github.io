@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2nd place at the European Cybersecurity & AI Hackathon Championship"
+title: "2nd place at the Vienna round of the European Cybersecurity & AI Hackathon"
 date: 2025-12-14 12:00:00
 description: "We finished 2nd in Vienna and advanced to the CISPA championship grand final."
 categories: highlights
